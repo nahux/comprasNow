@@ -20,9 +20,9 @@ define('DIR_UPLOAD', 'system/storage/upload/');
 
 // DB
 define('DB_DRIVER', 'mysqli');
-define('DB_HOSTNAME', 'localhost');
-define('DB_USERNAME', 'comprasnow');
-define('DB_PASSWORD', 'admin');
-define('DB_DATABASE', 'comprasnow');
+define('DB_HOSTNAME', 'mysql://b0d4579d112535:5acc9d7a@us-cdbr-iron-east-03.cleardb.net/heroku_71d4b8097d073fc?reconnect=true');
+define('DB_USERNAME', 'b0d4579d112535');
+define('DB_PASSWORD', '5acc9d7a');
+define('DB_DATABASE', 'heroku_71d4b8097d073fc');
 define('DB_PORT', '3306');
 define('DB_PREFIX', 'oc_');
